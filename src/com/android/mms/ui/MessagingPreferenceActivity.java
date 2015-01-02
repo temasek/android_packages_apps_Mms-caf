@@ -159,7 +159,7 @@ public class MessagingPreferenceActivity extends PreferenceActivity
     private SwitchPreference mVibratePref;
     private SwitchPreference mEnableNotificationsPref;
     private SwitchPreference mMmsAutoRetrievialPref;
-    private CheckBoxPreference mEnableHeadsUpModePref;
+    private SwitchPreference mEnableHeadsUpModePref;
     private ListPreference mMmsExpiryPref;
     private ListPreference mMmsExpiryCard1Pref;
     private ListPreference mMmsExpiryCard2Pref;
@@ -311,7 +311,7 @@ public class MessagingPreferenceActivity extends PreferenceActivity
         mMmsExpiryCard2Pref = (ListPreference) findPreference("pref_key_mms_expiry_slot2");
         mSmsSignaturePref = (SwitchPreference) findPreference("pref_key_enable_signature");
         mSmsSignatureEditPref = (EditTextPreference) findPreference("pref_key_edit_signature");
-        mEnableHeadsUpModePref = (CheckBoxPreference) findPreference(HEADS_UP_MODE_ENABLED);
+        mEnableHeadsUpModePref = (SwitchPreference) findPreference(HEADS_UP_MODE_ENABLED);
         mVibratePref = (SwitchPreference) findPreference(NOTIFICATION_VIBRATE);
         Vibrator vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
         if (mVibratePref != null && (vibrator == null || !vibrator.hasVibrator())) {
