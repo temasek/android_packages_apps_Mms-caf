@@ -21,7 +21,7 @@
   <string name="pref_quickmessage_summary">Gelen SMS mesajları için HızlıMesaj açılır penceresini otomatik göster</string>
   <string name="pref_wake_unlock_title">Uyan ve kilidi aç</string>
   <string name="pref_wake_unlock_summary">Cihazı uyandır ve HızlıMesaj penceresini görüntüle</string>
-  <string name="pref_close_all_title">Hepsini kapat</string>
+  <string name="pref_close_all_title">Tümünü kapat</string>
   <string name="pref_close_all_summary">Kapat tuşu tüm mesajları kapatır</string>
   <string name="pref_dark_theme_title">Koyu temayı kullan</string>
   <string name="pref_dark_theme_summary">Seçilmezse varsayılan \'açık renk\' tema kullanılacak</string>
@@ -41,7 +41,7 @@
   <string name="send_delay_30seconds">30 saniye</string>
   <string name="sent_countdown">Mesaj ulaştırma geri sayımı</string>
   <string name="pref_extra_settings">Ek seçenekler</string>
-  <string name="blacklist_title">Engellenen arayan listesi</string>
+  <string name="blacklist_title">Engelli arayan listesi</string>
   <string name="blacklist_summary_disabled">Devre dışı</string>
   <string name="blacklist_summary">Engellenen arayan listesindeki numaralardan gelen çağrıları ya da mesajları almayacaksınız</string>
   <string name="blacklist_notification">%s kişisinden gelen mesaj engellendi</string>
@@ -50,14 +50,14 @@
   <string name="blacklist_notification_unknown_number">Bilinmeyen numaradan (%s) gelen bir mesaj engellendi</string>
   <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> mesaj engellendi</string>
   <string name="unblock_number">Engeli kaldır</string>
-  <string name="add_to_blacklist">Engellenen arayan listesine ekle</string>
+  <string name="add_to_blacklist">Engelli arayan listesine ekle</string>
   <string name="add_to_blacklist_message">%s kişisinden ilerde gelecek mesajlar engellenecek</string>
   <string name="alert_dialog_yes">Evet</string>
   <string name="alert_dialog_no">Hayır</string>
-  <string name="pref_title_unicode_stripping">Unicode\'u strip et</string>
+  <string name="pref_title_unicode_stripping">Unicode\'u çıkar</string>
   <string name="pref_unicode_stripping_leave_intact">Karakterleri olduğu gibi bırak</string>
-  <string name="pref_unicode_stripping_non_encodable">Görüntülünemeyen karakterleri strip et</string>
-  <string name="pref_unicode_stripping_all">Tüm unicode karakterleri strip et</string>
+  <string name="pref_unicode_stripping_non_encodable">Görüntülünemeyen karakterleri çıkar</string>
+  <string name="pref_unicode_stripping_all">Tüm unicode karakterleri çıkar</string>
   <string name="menu_as_unread">Okunmadı olarak işaretle</string>
   <string name="menu_as_read">Okundu olarak işaretle</string>
   <string name="menu_all_as_unread">Tümünü okunmadı olarak işaretle</string>
@@ -94,7 +94,7 @@
   <string name="discard_message_reason_some_invalid">Mesajınız alıcılardan bazıları geçersiz olduğundan dolayı silinecek.</string>
   <string name="cannot_add_text_anymore">Daha fazla metin eklenemiyor.</string>
   <string name="title_send_message">Mesaj gönder</string>
-  <string name="subject_full">Konu <xliff:g id="length">%d </xliff:g> karakterden uzun olmamalı.</string>
+  <string name="subject_full">Konu <xliff:g id="length">%d</xliff:g> karakterden uzun olmamalı.</string>
   <string name="pref_title_manage_sim_messages_slot1">SIM 1 mesajlarını yönet</string>
   <string name="pref_title_manage_sim_messages_slot2">SIM 2 mesajlarını yönet</string>
   <string name="prefs_title_export_sms_messages">Mesajları dışarı aktar</string>
@@ -117,7 +117,7 @@
   <string name="summary_new_message_template">Yeni mesaj şablonu oluştur</string>
   <string name="dialog_editSMSTemplate_title">Şablonu düzenle</string>
   <string name="import_message_template">Şablon ekle</string>
-  <string name="template_full">Şablon metni uzunluk sınırını aştı.</string>
+  <string name="template_full">Şablon metni maksimum uzunluğa ulaştı.</string>
   <string name="pref_sms_signature_title">SMS imzası</string>
   <string name="pref_title_enable_signature">Mesajlara imza ekle</string>
   <string name="pref_title_edit_signature">İmza metnini düzenle</string>
@@ -185,7 +185,7 @@
   <string name="search_mode">Arama modu</string>
   <string name="search_as_name">İsim</string>
   <string name="search_as_number">Numara</string>
-  <string name="search_as_content">Içerik</string>
+  <string name="search_as_content">İçerik</string>
   <string name="search_as_subject">Konu</string>
   <string name="invalid_name_toast">Lütfen geçerli bir ad girin</string>
   <string name="sim_capacity_title">SIM kapasitesi</string>
@@ -250,7 +250,7 @@
   <string name="pref_summary_enable_emoticons">Metin ifadelerini grafiksel eşdeğerleri ile değiştir</string>
   <string name="menu_conversation_options">Sohbet seçenekleri</string>
   <string name="pref_title_reset_convopt_to_default">Varsayılana sıfırla</string>
-  <string name="pref_summary_reset_convopt_to_default">Sohbet ayarlarını uygulama seviyesi ayarlarına sıfırlar</string>
+  <string name="pref_summary_reset_convopt_to_default">Sohbet ayarını uygulama seviyesi ayarına sıfırlar</string>
   <string name="pref_title_mms_full_timestamp">Tam zaman damgaları</string>
   <string name="pref_summary_mms_full_timestamp">Zaman damgalarında hem tarih hem saati gösterir</string>
   <string name="pref_title_mms_use_sent_timestamp">Orijinal zaman damgaları</string>

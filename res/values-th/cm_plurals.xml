@@ -23,6 +23,9 @@
     <item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> ข้อความจะถูกลบ</item>
   </plurals>
   <plurals name="confirm_mark_read_conversation">
-    <item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> ข้อความถูกทำเครื่องหมายว่าอ่านแล้ว</item>
+    <item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> ข้อความการสนทนาถูกทำเครื่องหมายว่าอ่านแล้ว</item>
+  </plurals>
+  <plurals name="confirm_mark_unread_conversation">
+    <item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> ข้อความการสนทนาจะถูกทำเครื่องหมายว่ายังไม่ได้อ่าน</item>
   </plurals>
 </resources>
